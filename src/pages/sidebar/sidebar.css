@@ -1,0 +1,43 @@
+.containerSidebbar{
+    display: flex;
+   flex: 1;
+   height:calc(100vh - 50px);
+    margin-right: 50px;
+    position: sticky;
+    background: rgb(255, 252, 251);
+    flex-direction: column;
+}
+.siderbarmenu
+{
+  
+    margin-bottom: 30px;
+}
+.siderbartitle{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: rgb(204, 202, 202);
+}
+.siderbarlist{
+list-style: none;
+padding: 30px;}
+.sidebartitle
+{
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.sidebartitle:hover,
+.sidebartitle:active
+{
+    background:tomato;
+    color: white;
+}
+{
+    background: rgb(255, 252, 251);
+}
+.sidebarIcons{
+    margin-right: 5px;
+    font-size: 30px !important;
+}
