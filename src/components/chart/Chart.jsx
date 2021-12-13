@@ -82,6 +82,8 @@ export default function Chart() {
         <LineChart data={data}>
         <XAxis dataKey="name" stroke="tomato"/>
         <Line type="monotone" dataKey="Active user" stroke="tomato" />
+        <Tooltip />
+        <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
         </LineChart>
         
       </ResponsiveContainer>{" "}
