@@ -5,7 +5,7 @@ import TopBar from "./components/topar/TopBar";
 function App() {
   return (
     <div >
-      <TopBar />
+      <TopBar  className='app'/>
       <div className="container">
         <SideBar />
         <Home />

@@ -4,7 +4,7 @@
    height:calc(100vh - 50px);
     margin-right: 50px;
     position: sticky;
-    background: rgb(240, 176, 154);
+    background: #242444;
     flex-direction: column;
 }
 .siderbarmenu
@@ -16,7 +16,7 @@
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 0px;
-    color: rgb(58, 54, 54);
+    color: rgb(250, 244, 244);
 }
 .siderbarlist{
 list-style: none;
@@ -27,6 +27,8 @@ padding: 10px;}
     cursor: pointer;
     display: flex;
     align-items: center;
+    color: white;
+
 }
 .sidebartitle:hover,
 .sidebartitle:active
