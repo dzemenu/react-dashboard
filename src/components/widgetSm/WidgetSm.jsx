@@ -29,6 +29,27 @@ export default function WidgetSm() {
             Display
           </button>
         </li>
+        <li className="widgetsmItem">
+          <img src={avatar} alt="" className="widgetsmImg" />
+          <div className="widgetsmUser">
+            <span className="widgetsmUserName">Yosef kefale</span>
+            <span className="widgetsmUserTitle">Backend Engineer</span>
+          </div>
+          <button className="widgetsmButton">
+            <VisibilityIcon className="widgetsmIcon"/>
+            Display
+          </button>
+        </li> <li className="widgetsmItem">
+          <img src={avatar} alt="" className="widgetsmImg" />
+          <div className="widgetsmUser">
+            <span className="widgetsmUserName">Yosef kefale</span>
+            <span className="widgetsmUserTitle">Backend Engineer</span>
+          </div>
+          <button className="widgetsmButton">
+            <VisibilityIcon className="widgetsmIcon"/>
+            Display
+          </button>
+        </li>
       </ul>
     </div>
   );
